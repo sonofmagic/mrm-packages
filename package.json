@@ -2,10 +2,6 @@
   "name": "pnpm-turbo-monorepo-template",
   "version": "0.0.0",
   "private": true,
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
@@ -24,5 +20,9 @@
   },
   "packageManager": "pnpm@7.14.1",
   "license": "MIT",
-  "homepage": "https://github.com/sonofmagic/mrm-packages"
+  "homepage": "https://github.com/sonofmagic/mrm-packages",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
 }

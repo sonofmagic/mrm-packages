@@ -1,0 +1,15 @@
+{
+  "name": "dir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "a": "mrm icebreaker"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mrm-task-icebreaker": "workspace:^"
+  }
+}
