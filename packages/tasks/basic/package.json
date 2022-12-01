@@ -22,5 +22,9 @@
   ],
   "dependencies": {
     "mrm-core": "^7.1.13"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmmirror.com/"
   }
 }
