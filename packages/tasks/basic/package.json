@@ -25,6 +25,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "http://registry.npmmirror.com/"
+    "registry": "https://registry.npmjs.org"
   }
 }

@@ -8,7 +8,7 @@ const task = () => {
   const publishConfig = pkg.get('publishConfig')
   if (!publishConfig) {
     pkg.set('publishConfig.access', 'public')
-    pkg.set('publishConfig.registry', 'http://registry.npmmirror.com/')
+    pkg.set('publishConfig.registry', 'https://registry.npmjs.org')
     pkg.save()
   }
 }
