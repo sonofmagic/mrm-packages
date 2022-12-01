@@ -1,0 +1,26 @@
+{
+  "name": "mrm-task-icebreaker",
+  "version": "0.0.1",
+  "description": "Icebreaker's task for Mrm",
+  "author": {
+    "name": "sonofmagic",
+    "url": "https://github.com/sonofmagic"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {},
+  "keywords": [
+    "mrm",
+    "mrm-task"
+  ],
+  "dependencies": {
+    "mrm-core": "^7.1.13"
+  }
+}
