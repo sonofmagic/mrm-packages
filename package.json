@@ -6,7 +6,8 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "a": "node tests/dir0/test.js"
   },
   "devDependencies": {
     "@icebreakers/eslint-config-ts": "^1.0.2",
@@ -25,5 +26,9 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonofmagic/mrm-packages.git"
   }
 }
