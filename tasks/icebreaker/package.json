@@ -1,6 +1,6 @@
 {
   "name": "mrm-task-icebreaker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Icebreaker's task for Mrm",
   "author": {
     "name": "SonOfMagic",
@@ -19,13 +19,13 @@
     "node": ">=14"
   },
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/types/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
-    "dev": "rollup -cw",
-    "build": "rollup -c"
+    "dev": "cross-env NODE_ENV=development rollup -cw",
+    "build": "cross-env NODE_ENV=production rollup -c"
   },
   "keywords": [
     "mrm",
@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@types/parse-git-config": "^3.0.1",
-    "parse-git-config": "^3.0.0",
-    "git-user-info": "^2.0.3"
+    "git-user-info": "^2.0.3",
+    "parse-git-config": "^3.0.0"
   }
 }
