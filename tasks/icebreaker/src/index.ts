@@ -13,4 +13,4 @@ const task = async (params: IParams) => {
 
 task.description = 'icebreaker config'
 task.parameters = {}
-export = task
+export default task
