@@ -1,7 +1,7 @@
 const { runTask } = require('mrm')
 
-async function main() {
-  runTask('icebreaker', ['tasks'], {}, {})
+function main() {
+  return runTask('icebreaker', ['tasks'], {}, {})
 }
 
 main()

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "a": "mrm icebreaker"
+    "a": "node test.js"
   },
   "keywords": [],
   "author": "",
