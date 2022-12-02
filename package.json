@@ -13,7 +13,8 @@
     "eslint": "^8.28.0",
     "prettier": "latest",
     "turbo": "latest",
-    "typescript": "^4.9.3"
+    "typescript": "^4.9.3",
+    "mrm": "^4.1.13"
   },
   "engines": {
     "node": ">=14.0.0"
